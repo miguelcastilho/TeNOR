@@ -1,0 +1,16 @@
+---
+servicename: sla-enforcement
+environment: development
+address: 0.0.0.0
+port: 4016
+max_conns: 1024
+timeout: 30
+max_persistent_conns: 512
+daemonize: false
+
+logstash_host: 84.88.40.160
+logstash_port: 9999
+
+gk: http://192.168.2.19:8000
+
+service_key: 27e69ac6-788f-4db8-b455-8bcd9744a2ed
